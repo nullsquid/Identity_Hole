@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 //public enum World{
@@ -23,6 +23,7 @@ public class WorldManager : MonoBehaviour {
 	}
 
 	void Start(){
+
 		WorldNode newNode;
 		for(int i = 0; i <= nodeNumber; i++){
 			newNode = Instantiate(nodePrefab);
